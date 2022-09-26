@@ -1,0 +1,55 @@
+body{
+    background: #EBECEE;
+}
+
+main{
+    margin: 0 auto;
+    width: 45%;
+    display: grid;
+    grid-template-areas:
+    "image heading-404"
+    "image 404-main-text"
+    "image 404-secondary-text"
+    "image home-btn";
+    grid-template-columns: 45% 55%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.serlock-img{
+    grid-area: image;
+}
+
+.heading-404{
+    grid-area: heading-404;
+    color: #343E49;
+    font-size: 70px;
+    font-weight: 700;
+
+
+}
+
+.main-text-404{
+    grid-area: main-text-404;
+    color: #808290;
+    font-size: 20px;
+    
+}
+
+.secondary-text-404{
+    grid-area: secondary-text-404;
+    color: #808290;
+    margin: 0 0 30px 0;
+}
+
+.home-btn{
+    grid-area: home-btn;
+    background-color: #676E8A;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.text-container{
+    margin: 30px 0 0 0;
+}
