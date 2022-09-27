@@ -2,6 +2,10 @@ body{
     background: #EBECEE;
 }
 
+.container{
+    margin:100px 0;
+}
+
 main{
     margin: 0 auto;
     width: 45%;
